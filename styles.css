@@ -19,11 +19,33 @@ body {
   overflow: hidden;
 }
 
+.content-container {
+  display: block;
+  align-items: center; /* Align items to the top */
+  justify-content: center; /* Distribute items along the horizontal axis */
+  margin-bottom: 2rem; /* Adjust spacing between the content and Swiper container */
+  color: white; /* Set the text color */
+}
+
+.title-container {
+  text-align: center;/* Allow the title container to grow/shrink as needed */
+ /* Add spacing between title/paragraph and card div */
+}
+
+.title-container h2 {
+  font-size: 3rem;
+}
+
+.title-container p {
+  font-size: 16px;
+}
+
 .swiper {
   width: 100vw;
   max-width: 15rem;
   height: 320px;
-  margin-right: 3.0rem; /* Center the swiper horizontally */
+  margin-right: 2.75rem;
+/* Center the swiper horizontally */
 }
 
 .swiper-slide {
@@ -78,7 +100,7 @@ a {
 #quote-link {
   display: block;
   margin-top: 10px;
-    color: black;color: black;
+  color: black;color: black;
 }
 
 #randomButton {
@@ -107,6 +129,7 @@ a {
   flex-direction: column;
   align-items: center;
   color: black;
+  text-align: center; /* Center the content horizontally */
 }
 
 .button-div {
