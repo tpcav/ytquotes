@@ -57,6 +57,8 @@ var swiper = new Swiper(".mySwiper", {
   grabCursor: true,
   allowTouchMove: true,
   loop: true,
+  mousewheel: true,
+  keyboard: true,
 });
 
 // Add event listener to the button
