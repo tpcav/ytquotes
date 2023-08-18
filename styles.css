@@ -3,6 +3,7 @@ body {
   position: relative;
   height: 100%;
   background-color: black;
+  overflow-y: hidden;
 }
 
 body {
@@ -14,11 +15,12 @@ body {
   background-color: black;
   margin: 0;
   font-family: Arial, sans-serif;
+  overflow: hidden;
 }
 
 .swiper {
-  width: 100%;
-  max-width: 240px;
+  width: 100vw;
+  max-width: 15rem;
   height: 320px;
   margin-right: 3.25rem; /* Center the swiper horizontally */
 }
