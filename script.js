@@ -1,7 +1,12 @@
  // List of card data
  const cardData = [
   {
-    text: '"I like calling other YouTubers while I take walks."',
+    text: '"Our job as creators is to further define any medium. Our job is to create the new cliches. Not adhear to those that were defined by generations past."',
+    author: "Casey Neistat",
+    link: "https://youtube.com/clip/UgkxPZDfoAokR1Alz9jlg0cklsjmaVxyPJG1"
+  },
+  {
+    text: '"I just want to make the best videos possible."',
     author: "MrBeast",
     link: "https://youtube.com/video1"
   },
@@ -11,24 +16,19 @@
     link: "https://youtube.com/video2"
   },
   {
-    text: '',
-    author: "Colin and Samir",
-    link: "https://youtube.com/video2"
+    text: '"The deep end."',
+    author: "Colin",
+    link: "https://youtube.com/clip/UgkxKHlfLYuVOvnzlHEpdrkGqk4C1G9Utkcd"
   },
   {
-    text: '',
-    author: "Airrack",
-    link: "https://youtube.com/video2"
+    text: '"Studying outside of YouTube is what really changes you."',
+    author: "Samir",
+    link: "https://youtube.com/clip/UgkxKHlfLYuVOvnzlHEpdrkGqk4C1G9Utkcd"
   },
   {
     text: '',
     author: "MKBHD",
     link: "https://youtube.com/video2"
-  },
-  {
-    text: '"Our job as creators is to further define any medium. Our job is to create the new cliches. Not adhear to those that were defined by generations past."',
-    author: "Casey Neistat",
-    link: "https://youtube.com/clip/UgkxPZDfoAokR1Alz9jlg0cklsjmaVxyPJG1"
   },
   // Add more quotes here
 ];

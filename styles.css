@@ -132,6 +132,14 @@ a {
   text-align: center; /* Center the content horizontally */
 }
 
+.shuffle-icon {
+  font-size: 1rem;
+}
+
+.quote-text {
+  text-align: left;
+}
+
 .button-div {
   display: flex;
   align-items: center;
