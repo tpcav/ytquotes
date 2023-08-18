@@ -118,12 +118,26 @@ a {
 .quote-author {
   text-align: right;
   font-size: 1.2rem;
+  font-style: italic;
 }
 
 .quote-link {
   text-align: bottom;
   font-size: 1.0rem;
   margin-top: 5rem;
+}
+
+.submitButton {
+  position: fixed;
+  bottom: 0;
+  margin-left: 1.6rem;
+  margin-top: 0px;
+  text-align: center;
+  font-size: 1.0rem;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 3rem;
 }
 
 .card-div {
