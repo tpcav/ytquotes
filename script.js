@@ -61,14 +61,31 @@ var swiper = new Swiper(".mySwiper", {
   keyboard: true,
 });
 
-// Add event listener to the button
-randomButton.addEventListener("click", function () {
-  // Generate a random index to select a random slide
-  var randomIndex = Math.floor(Math.random() * cardData.length);
+document.addEventListener("DOMContentLoaded", function () {
+  // Rest of your JavaScript code
 
-  // Use Swiper's slideTo method to animate to the random slide
-  swiper.slideTo(randomIndex);
+  var previousRandomIndex = -1; // Initialize with an invalid index
 
-  // Update swiper instance to reflect the changes
-  swiper.update();
+  // Add event listener to the button
+  randomButton.addEventListener("click", function () {
+    var randomIndex;
+
+    do {
+      randomIndex = Math.floor(Math.random() * cardData.length);
+    } while (randomIndex === previousRandomIndex);
+
+    // Update the previous index to the current index
+    previousRandomIndex = randomIndex;
+
+    // Use Swiper's slideTo method to animate to the random slide
+    swiper.slideTo(randomIndex);
+
+    // Update swiper instance to reflect the changes
+    swiper.update();
+  });
+
+  // Automatically navigate to a random slide when the page loads
+  var initialRandomIndex = Math.floor(Math.random() * cardData.length);
+  previousRandomIndex = initialRandomIndex; // Set the initial index
+  swiper.slideTo(initialRandomIndex);
 });
