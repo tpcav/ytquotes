@@ -108,7 +108,7 @@ a {
   padding: 1rem 2rem;
   background-color: #333;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.0rem;
   color: white;
   border: none;
   cursor: pointer;
@@ -117,10 +117,12 @@ a {
 
 .quote-author {
   text-align: right;
+  font-size: 1.2rem;
 }
 
 .quote-link {
   text-align: bottom;
+  font-size: 1.0rem;
   margin-top: 5rem;
 }
 
@@ -138,6 +140,7 @@ a {
 
 .quote-text {
   text-align: left;
+  font-size: 1.2rem;
 }
 
 .button-div {

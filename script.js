@@ -1,24 +1,24 @@
  // List of card data
  const cardData = [
   {
-    text: '"Our job as creators is to further define any medium. Our job is to create the new cliches. Not adhear to those that were defined by generations past."',
+    text: '"Our job is to create the new cliches. Not adhear to those that were defined by generations past."',
     author: "Casey Neistat",
     link: "https://youtube.com/clip/UgkxPZDfoAokR1Alz9jlg0cklsjmaVxyPJG1"
   },
   {
-    text: '"I just want to make the best videos possible."',
+    text: '"I want to wake up and I want to figure out how I make thee best videos possible. That is it, and it\'s like... so clear. I don\'t have to wonder should I be doing this, or should I be doing that."',
     author: "MrBeast",
-    link: "https://youtube.com/video1"
+    link: "https://youtube.com/clip/Ugkxt4PUeXHPKfJidhW7Rdzszb1fcIbklYgJ"
   },
   {
-    text: '',
+    text: '"The best videos come from doing things that are accessible to me. And like even walking 100 miles and metal detecting the beach, that\'s something I literally always wanted to do as a kid."',
     author: "Ryan Trahan",
-    link: "https://youtube.com/video2"
+    link: "https://youtube.com/clip/UgkxTOo-36LhkyfIyz38IaFxBJOUBy1BA2TP"
   },
   {
-    text: '"The deep end."',
+    text: '"My top game isn\'t as good as my bottom game" (Talking about clothes).',
     author: "Colin",
-    link: "https://youtube.com/clip/UgkxKHlfLYuVOvnzlHEpdrkGqk4C1G9Utkcd"
+    link: "https://youtube.com/clip/Ugkx5iEwJA9711KUK3fjItYjqwkfEZKzY8kz"
   },
   {
     text: '"Studying outside of YouTube is what really changes you."',
