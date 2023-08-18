@@ -23,7 +23,7 @@ body {
   width: 100vw;
   max-width: 15rem;
   height: 320px;
-  margin-right: 3.25rem; /* Center the swiper horizontally */
+  margin-right: 3.0rem; /* Center the swiper horizontally */
 }
 
 .swiper-slide {
