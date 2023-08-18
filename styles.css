@@ -7,14 +7,20 @@ body {
 
 body {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  position: relative;
+  height: 100%;
+  background-color: black;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
 .swiper {
-  width: 240px;
+  width: 100%;
+  max-width: 240px;
   height: 320px;
-
+  margin-right: 3.25rem; /* Center the swiper horizontally */
 }
 
 .swiper-slide {
@@ -25,12 +31,6 @@ body {
   padding: 2rem;
   color: black;
   background-color: white;
-}
-    
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
 }
 
 header {
