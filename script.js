@@ -54,6 +54,8 @@ var swiper = new Swiper(".mySwiper", {
   loop: true,
   mousewheel: true,
   keyboard: true,
+  slidesPerView: 1,
+  centerInsufficientSlides:true,
 });
 
 document.addEventListener("DOMContentLoaded", function () {
