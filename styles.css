@@ -2,7 +2,7 @@ html,
 body {
   position: relative;
   height: 100%;
-  background-color: rgb(106, 106, 106);
+  background-color: rgb(172, 172, 172);
   overflow-y: hidden;
   overflow-x: hidden;
 }
@@ -13,7 +13,7 @@ body {
   align-items: center; /* Center vertically */
   position: relative;
   height: 100%;
-  background-color: rgb(227, 227, 227);
+  background-color: rgb(172, 172, 172);
   margin: 0;
   font-family: Arial, sans-serif;
   overflow: hidden;
@@ -106,7 +106,7 @@ a {
 #randomButton {
   margin-top: 1.5rem;
   padding: 1rem 2rem;
-  background-color: #8a8a8a;
+  background-color: #696969;
   text-align: center;
   font-size: 1.0rem;
   color: white;
@@ -134,7 +134,7 @@ a {
   margin-top: 0px;
   text-align: center;
   font-size: 1.0rem;
-  color: #919191;
+  color: rgb(58, 58, 58);
   border: none;
   cursor: pointer;
   margin-bottom: 3rem;
