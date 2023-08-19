@@ -25,11 +25,6 @@
     author: "Samir",
     link: "https://youtube.com/clip/UgkxKHlfLYuVOvnzlHEpdrkGqk4C1G9Utkcd"
   },
-  {
-    text: '',
-    author: "MKBHD",
-    link: "https://youtube.com/video2"
-  },
   // Add more quotes here
 ];
 
